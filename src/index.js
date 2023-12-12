@@ -6,11 +6,11 @@ const app = express();
 //Data
 const thingsILike = [
   {
-    plants: "botes",
+    plants: "pothos",
     markers: "limon green",
     movies: "mulan",
     music: "jazz",
-    sports: "robe skipping",
+    sports: "skipping robe",
   },
 ];
 
@@ -26,3 +26,5 @@ app.get("/thingsILike", (req, res) => {
 app.listen(PORT, () => {
   console.log(`server is running at ${PORT}`);
 });
+
+export default app;
